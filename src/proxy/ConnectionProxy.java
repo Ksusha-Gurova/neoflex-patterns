@@ -1,9 +1,9 @@
 package proxy;
 
-public class ConnectionFactory {
+public class ConnectionProxy {
     private DatabaseManager manager;
 
-    public ConnectionFactory(DatabaseManager manager) {
+    public ConnectionProxy(DatabaseManager manager) {
         this.manager = manager;
     }
 

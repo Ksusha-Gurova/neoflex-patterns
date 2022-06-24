@@ -1,5 +1,5 @@
 package factory;
 
 public class Coffee {
-    void coffee() {}
+    void getCoffee() {}
 }

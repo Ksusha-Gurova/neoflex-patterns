@@ -2,7 +2,7 @@ package singleton;
 
 public class Logger {
     private static Logger INSTANCE;
-    private static String log = "log info: ";
+    private static final String log = "log info: ";
 
     private Logger() {}
 
@@ -13,7 +13,7 @@ public class Logger {
         return INSTANCE;
     }
 
-    public void addClassAndShowInfo(Class cl, String info) {
+    public void logging(Class cl, String info) {
         System.out.println(log + cl.getName() + ", " + info);
     }
 }
